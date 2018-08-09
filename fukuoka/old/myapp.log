@@ -1,0 +1,5 @@
+2018-05-31 22:38:55 connectionpool.py[line:756] Starting new HTTPS connection (1): api.huobi.pro
+2018-05-31 22:39:47 connectionpool.py[line:756] Starting new HTTPS connection (1): api.huobi.pro
+2018-05-31 22:41:06 connectionpool.py[line:756] Starting new HTTPS connection (1): api.huobi.pro
+2018-05-31 22:41:09 connectionpool.py[line:387] "POST /v1/order/orders/place?Timestamp=2018-05-31T14%3A41%3A06&SignatureMethod=HmacSHA256&Signature=14%2FKa0%2BiJOaB6dbOvJZTm3BDKb0qwi%2BdRmU%2BdRCQ12Y%3D&SignatureVersion=2&AccessKeyId=48e18439-80d2ca0c-d52bbe60-13fd4 HTTP/1.1" 200 None
+2018-05-31 22:41:09 logger.py[line:21] 'huobi trade result: {u'status': u'error', u'err-code': u'order-marketorder-amount-min-error', u'data': None, u'err-msg': u'market order amount error, min: `1`'}
