@@ -13,8 +13,8 @@ binanceRef={
     'accountInfoUrl':'/api/v3/account',# GET HMAC SHA256
     'tradeUrl':'/api/v3/order', #POST (HMAC SHA256)
     'priceUrl':'/api/v1/depth',
-    'secretKey':'2DM2supOKxU3dglpEUzwboSbi0SXsutFbodQanxsXQccyeLWrmgTwTLjJMqLfWZZ',
-    'apikey':'7GVlDRJo19n8TDKA9r8VsGe3L3F78BlEeN5bH9FTrHVFEcKcE3dZVuNckKRYksCr',
+    'secretKey':'',
+    'apikey':'',
     #'websocket_endpoint':"wss://stream.binance.com:9443/ws/xrpbtc@depth5"
     'websocket_endpoint':"wss://stream.binance.com:9443/"
 
@@ -31,8 +31,8 @@ huobiRef={
     'tradeUrl':'/v1/order/orders/place',
     'host':'api.huobi.pro',
     'priceUrl':'https://api.huobi.pro/market/depth',
-    'apikey':'48e18439-80d2ca0c-d52bbe60-13fd4',
-    'secretkey':'e739e348-d70a9a75-ded9e4cc-232b7',
+    'apikey':'',
+    'secretkey':'',
     'websocket_endpoint':"wss://api.huobipro.com/ws"
 
 
